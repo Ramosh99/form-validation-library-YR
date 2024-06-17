@@ -20,21 +20,21 @@ A simple and customizable form validation library for JavaScript. It provides bu
 
 Install the library using npm:
 
-```bash
+````````````````bash
 npm install form-validation-library-yr
-```
+````````````````
 
 Or using yarn:
 
-```bash
+````````````````bash
 yarn add form-validation-library-yr
-```
+`````````````````
 
 ## Usage
 
 First, import the library and create an instance of `FormValidator` with your validation rules:
 
-```javascript
+`````````````````javascript
 import FormValidator from 'form-validation-library-yr';
 
 const rules = {
@@ -55,23 +55,23 @@ const formData = {
 
 const errors = validator.validate(formData);
 console.log(errors);
-```
+`````````````````
 
 ## API
 
 ### Constructor
 
-```javascript
+`````````````````javascript
 new FormValidator(rules)
-```
+`````````````````
 
 - `rules` (Object): An object defining the validation rules for each field.
 
 ### validate
 
-```javascript
+`````````````````javascript
 validate(formData)
-```
+`````````````````
 
 - `formData` (Object): An object containing the form data to be validated.
 - Returns: An object containing validation errors, where the keys are the field names and the values are the error messages.
@@ -80,11 +80,11 @@ validate(formData)
 
 You can define custom validation logic by providing a custom validator function in the rules:
 
-```javascript
+`````````````````javascript
 const rules = {
   birthdate: { 
     required: true, 
-    date: true, 
+    date: true`````````````````
     custom: { 
       validator: (value) => {
         const dateObj = new Date(value);
@@ -114,7 +114,7 @@ The library includes several built-in validators:
 
 ### Basic Usage
 
-```javascript
+`````````````````javascript
 import FormValidator from 'form-validation-library-yr';
 
 const rules = {
@@ -140,7 +140,7 @@ console.log(errors);
 
 ### Custom Validation
 
-```javascript
+`````````````````javascript
 import FormValidator from 'form-validation-library-yr';
 
 const isPastDate = (date) => {
@@ -193,3 +193,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 5. **Examples**: Additional examples to demonstrate basic usage and custom validation.
 6. **Contributing**: Information on how to contribute to the project.
 7. **License**: License information for the project.
+
+
+below shows gist link for example code
+https://gist.github.com/Ramosh99/abf533724978f9ed875b0beb4a08da85
