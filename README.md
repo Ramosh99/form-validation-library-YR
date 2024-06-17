@@ -1,4 +1,6 @@
+Here's a `README.md` file tailored for the `form-validation-library-yr` npm package:
 
+```markdown
 # form-validation-library-yr
 
 A simple and customizable form validation library for JavaScript. It provides built-in validators for common form fields and supports custom validation logic.
@@ -20,21 +22,21 @@ A simple and customizable form validation library for JavaScript. It provides bu
 
 Install the library using npm:
 
-````````````````bash
+```bash
 npm install form-validation-library-yr
-````````````````
+```
 
 Or using yarn:
 
-````````````````bash
+```bash
 yarn add form-validation-library-yr
-`````````````````
+```
 
 ## Usage
 
 First, import the library and create an instance of `FormValidator` with your validation rules:
 
-`````````````````javascript
+```javascript
 import FormValidator from 'form-validation-library-yr';
 
 const rules = {
@@ -55,23 +57,23 @@ const formData = {
 
 const errors = validator.validate(formData);
 console.log(errors);
-`````````````````
+```
 
 ## API
 
 ### Constructor
 
-`````````````````javascript
+```javascript
 new FormValidator(rules)
-`````````````````
+```
 
 - `rules` (Object): An object defining the validation rules for each field.
 
 ### validate
 
-`````````````````javascript
+```javascript
 validate(formData)
-`````````````````
+```
 
 - `formData` (Object): An object containing the form data to be validated.
 - Returns: An object containing validation errors, where the keys are the field names and the values are the error messages.
@@ -80,11 +82,11 @@ validate(formData)
 
 You can define custom validation logic by providing a custom validator function in the rules:
 
-`````````````````javascript
+```javascript
 const rules = {
   birthdate: { 
     required: true, 
-    date: true`````````````````
+    date: true, 
     custom: { 
       validator: (value) => {
         const dateObj = new Date(value);
@@ -114,7 +116,7 @@ The library includes several built-in validators:
 
 ### Basic Usage
 
-`````````````````javascript
+```javascript
 import FormValidator from 'form-validation-library-yr';
 
 const rules = {
@@ -140,7 +142,7 @@ console.log(errors);
 
 ### Custom Validation
 
-`````````````````javascript
+```javascript
 import FormValidator from 'form-validation-library-yr';
 
 const isPastDate = (date) => {
