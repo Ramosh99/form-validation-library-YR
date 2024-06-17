@@ -184,7 +184,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
 
 ### Explanation:
 1. **Installation**: Instructions for installing the package using npm or yarn.
@@ -195,6 +194,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 6. **Contributing**: Information on how to contribute to the project.
 7. **License**: License information for the project.
 
-
-below shows gist link for example code
-https://gist.github.com/Ramosh99/abf533724978f9ed875b0beb4a08da85
+Below shows the gist link for example code:  
+[Example Code Gist](https://gist.github.com/Ramosh99/abf533724978f9ed875b0beb4a08da85)
