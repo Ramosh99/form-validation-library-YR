@@ -1,5 +1,3 @@
-
-```markdown
 # form-validation-library-yr
 
 A simple and customizable form validation library for JavaScript. It provides built-in validators for common form fields and supports custom validation logic.
