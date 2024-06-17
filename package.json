@@ -1,0 +1,15 @@
+{
+  "name": "form-validation-library-yr",
+  "version": "1.0.2",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Yasiru Ramosh",
+  "license": "ISC",
+  "description": "Validation Library",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
