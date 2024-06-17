@@ -1,4 +1,3 @@
-Here's a `README.md` file tailored for the `form-validation-library-yr` npm package:
 
 ```markdown
 # form-validation-library-yr
